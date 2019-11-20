@@ -6,14 +6,42 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		77E8BF1723849BC9008E809F /* ForAllFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 77E8BF1823849BC9008E809F /* Build configuration list for PBXAggregateTarget "ForAllFramework" */;
+			buildPhases = (
+				77E8BF1B23849BD4008E809F /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = ForAllFramework;
+			productName = ForAllFramework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		04AB8A537E0293A9EBFA0E20 /* Pods_Practice1Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231FFBC7232C51EB1450D82B /* Pods_Practice1Framework.framework */; };
 		77E8BF0523848B58008E809F /* Practice1Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 77E8BF0323848B58008E809F /* Practice1Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77E8BF1023848B7A008E809F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E8BF0B23848B7A008E809F /* ViewController.swift */; };
+		77E8BF1223848B7A008E809F /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E8BF0D23848B7A008E809F /* NextViewController.swift */; };
+		77E8BF1323848B7A008E809F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E8BF0E23848B7A008E809F /* Assets.xcassets */; };
+		77E8BF1423848B7A008E809F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E8BF0F23848B7A008E809F /* Main.storyboard */; };
+		77E8BF16238499EE008E809F /* PracticeFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E8BF15238499ED008E809F /* PracticeFramework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		231FFBC7232C51EB1450D82B /* Pods_Practice1Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Practice1Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E8BF0023848B58008E809F /* Practice1Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Practice1Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E8BF0323848B58008E809F /* Practice1Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Practice1Framework.h; sourceTree = "<group>"; };
 		77E8BF0423848B58008E809F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77E8BF0B23848B7A008E809F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77E8BF0D23848B7A008E809F /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		77E8BF0E23848B7A008E809F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77E8BF0F23848B7A008E809F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		77E8BF15238499ED008E809F /* PracticeFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeFramework.swift; sourceTree = "<group>"; };
+		78E7AF71B067D9F54C773B15 /* Pods-Practice1Framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice1Framework.debug.xcconfig"; path = "Target Support Files/Pods-Practice1Framework/Pods-Practice1Framework.debug.xcconfig"; sourceTree = "<group>"; };
+		DBE39800E504573E07FD3D05 /* Pods-Practice1Framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice1Framework.release.xcconfig"; path = "Target Support Files/Pods-Practice1Framework/Pods-Practice1Framework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AB8A537E0293A9EBFA0E20 /* Pods_Practice1Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B2E02DD5775D5B724CED738 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				231FFBC7232C51EB1450D82B /* Pods_Practice1Framework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		77E8BEF623848B58008E809F = {
 			isa = PBXGroup;
 			children = (
 				77E8BF0223848B58008E809F /* Practice1Framework */,
 				77E8BF0123848B58008E809F /* Products */,
+				D0483D5DD4AF4D50B3A9C349 /* Pods */,
+				6B2E02DD5775D5B724CED738 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +85,24 @@
 		77E8BF0223848B58008E809F /* Practice1Framework */ = {
 			isa = PBXGroup;
 			children = (
+				77E8BF15238499ED008E809F /* PracticeFramework.swift */,
+				77E8BF0B23848B7A008E809F /* ViewController.swift */,
+				77E8BF0D23848B7A008E809F /* NextViewController.swift */,
+				77E8BF0E23848B7A008E809F /* Assets.xcassets */,
+				77E8BF0F23848B7A008E809F /* Main.storyboard */,
 				77E8BF0323848B58008E809F /* Practice1Framework.h */,
 				77E8BF0423848B58008E809F /* Info.plist */,
 			);
 			path = Practice1Framework;
+			sourceTree = "<group>";
+		};
+		D0483D5DD4AF4D50B3A9C349 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78E7AF71B067D9F54C773B15 /* Pods-Practice1Framework.debug.xcconfig */,
+				DBE39800E504573E07FD3D05 /* Pods-Practice1Framework.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,6 +123,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77E8BF0823848B58008E809F /* Build configuration list for PBXNativeTarget "Practice1Framework" */;
 			buildPhases = (
+				7695867523636DD88276F882 /* [CP] Check Pods Manifest.lock */,
 				77E8BEFB23848B58008E809F /* Headers */,
 				77E8BEFC23848B58008E809F /* Sources */,
 				77E8BEFD23848B58008E809F /* Frameworks */,
@@ -95,6 +149,10 @@
 				TargetAttributes = {
 					77E8BEFF23848B58008E809F = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					77E8BF1723849BC9008E809F = {
+						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
@@ -111,6 +169,7 @@
 			projectRoot = "";
 			targets = (
 				77E8BEFF23848B58008E809F /* Practice1Framework */,
+				77E8BF1723849BC9008E809F /* ForAllFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -120,16 +179,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E8BF1323848B7A008E809F /* Assets.xcassets in Resources */,
+				77E8BF1423848B7A008E809F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7695867523636DD88276F882 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Practice1Framework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77E8BF1B23849BD4008E809F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#!/bin/sh\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\nOUTPUT_FOLDER=${PROJECT_DIR}\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n# Step 1. Build Device and Simulator versions. This also include the full bitcode generation of framework\n\n\nxcodebuild BITCODE_GENERATION_MODE=bitcode OTHER_CFLAGS=\"-fembed-bitcode\" -workspace ${PROJECT_NAME}.xcworkspace -scheme ${PROJECT_NAME} ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" -UseModernBuildSystem=NO clean build\n\nxcodebuild BITCODE_GENERATION_MODE=bitcode OTHER_CFLAGS=\"-fembed-bitcode\" -workspace ${PROJECT_NAME}.xcworkspace -scheme ${PROJECT_NAME} ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" -UseModernBuildSystem=NO clean build\n\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n# Step 3. Copy Swift modules (from iphonesimulator build) to the copied framework directory\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${OUTPUT_FOLDER}\"\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${OUTPUT_FOLDER}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		77E8BEFC23848B58008E809F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E8BF16238499EE008E809F /* PracticeFramework.swift in Sources */,
+				77E8BF1223848B7A008E809F /* NextViewController.swift in Sources */,
+				77E8BF1023848B7A008E809F /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +366,9 @@
 		};
 		77E8BF0923848B58008E809F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E7AF71B067D9F54C773B15 /* Pods-Practice1Framework.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -273,10 +381,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(BUILT_PRODUCTS_DIR)/MBProgressHUD",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ajeet.Practice1Framework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,7 +394,9 @@
 		};
 		77E8BF0A23848B58008E809F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE39800E504573E07FD3D05 /* Pods-Practice1Framework.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -297,12 +409,31 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(BUILT_PRODUCTS_DIR)/MBProgressHUD",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ajeet.Practice1Framework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77E8BF1923849BC9008E809F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77E8BF1A23849BC9008E809F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -323,6 +454,15 @@
 			buildConfigurations = (
 				77E8BF0923848B58008E809F /* Debug */,
 				77E8BF0A23848B58008E809F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77E8BF1823849BC9008E809F /* Build configuration list for PBXAggregateTarget "ForAllFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E8BF1923849BC9008E809F /* Debug */,
+				77E8BF1A23849BC9008E809F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

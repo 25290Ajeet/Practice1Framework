@@ -1,0 +1,11 @@
+framework module Practice1Framework {
+  umbrella header "Practice1Framework.h"
+
+  export *
+  module * { export * }
+}
+
+module Practice1Framework.Swift {
+    header "Practice1Framework-Swift.h"
+    requires objc
+}
